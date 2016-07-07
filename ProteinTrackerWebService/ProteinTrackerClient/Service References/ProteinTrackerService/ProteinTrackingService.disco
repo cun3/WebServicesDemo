@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://localhost:61799/ProteinTrackingService.asmx?wsdl" docRef="http://localhost:61799/ProteinTrackingService.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://localhost:61799/ProteinTrackingService.asmx" xmlns:q1="Simpleprogrammer.com" binding="q1:ProteinTrackingServiceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://localhost:61799/ProteinTrackingService.asmx" xmlns:q2="Simpleprogrammer.com" binding="q2:ProteinTrackingServiceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>
